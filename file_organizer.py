@@ -68,7 +68,7 @@ for nome_arquivo in os.listdir(pasta):
 
         if extensao in tipos_arquivo:
             pasta_destino = tipos_arquivo[extensao]
-            pasta_destino_completa = os.path.join(r'C:\Users\Calili\Desktop\Arquivos', pasta_destino)  # Substitua pelo caminho correto da Área de Trabalho e pasta de destino
+            pasta_destino_completa = os.path.join(r'C:\Users\', pasta_destino)  # Substitua pelo caminho correto da Área de Trabalho e pasta de destino
 
             # Verificar se a pasta de destino existe, caso contrário, criar
             os.makedirs(pasta_destino_completa, exist_ok=True)
